@@ -15,7 +15,7 @@ int main(){
     cout << "Digite a medida C: ";
     cin >> c;
 
-    quadrado = b * b;
+    quadrado = b * b; // deveria ser A * A, como pede no enunciado. 
 
     cout << fixed << setprecision(4);
     cout << "AREA DO QUADRADO = " << quadrado << endl;
